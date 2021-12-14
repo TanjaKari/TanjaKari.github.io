@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(21, 99, 201);
+}
+  
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.8;
+}
+  
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+.jumbotron {
+    background: url("kuvat/maisema.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
