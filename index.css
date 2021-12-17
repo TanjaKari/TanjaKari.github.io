@@ -22,3 +22,7 @@ div.transbox p {
 .display-4{
     text-align: center;
 }
+
+.row {
+    align-items: center;
+}
