@@ -1,28 +1,23 @@
 body {
-    background-color: rgb(21, 99, 201);
+    background-color: black;
 }
   
-div.transbox {
-    margin: 100px;
-    background-color: #ffffff;
-    border: 1px solid black;
-    opacity: 0.8;
-}
-  
-div.transbox p {
-    margin: 90%;
-    font-weight: bold;
-    color: #000000;
-}
 .jumbotron {
-    background: url("kuvat/maisema.jpg");
+    background: url("kuvat/havut.jpg");
     background-position: center;
     background-size: cover;
 }
-.display-4{
-    text-align: center;
+
+.nimi{
+    font-size: 500%;
+    color: azure;
+    margin-right: 0.5em;
+    text-align: right;
+    font-family: 'Happy Monkey', cursive;
+    text-shadow: 2px 2px 4px #000000
 }
 
-.row {
+.container {
     align-items: center;
+    
 }
