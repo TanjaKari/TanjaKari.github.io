@@ -9,7 +9,7 @@ a:hover, a:active {
     font-size: 18px;
 }
 
-.jumbotron {
+.jumbotron#top {
     background: url("kuvat/havut.jpg");
     background-position: center;
     background-size: cover;
@@ -24,13 +24,51 @@ a:hover, a:active {
     text-shadow: 2px 2px 4px #000000
 }
 
-.container {
-    align-items: center;   
+.container#cards {
+    align-items: center;
+    margin-top: 3em;
 }
 
-.container2 {
+.jumbotron#cv {
     background-color: rgba(46, 71, 50, 0.623);
-    margin-top: 3em;
+    margin: 3em 0em 3em 0em;
     color: black;
     align-items: center;
 }
+
+.container#contact {
+    align-items: center;
+    margin-bottom: 5em;
+  }
+  
+  .image {
+    display: block;
+    width: 8em;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    width: 14em;
+    transition: .5s ease;
+    background-color: #39664c;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
