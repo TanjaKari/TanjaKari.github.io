@@ -47,11 +47,22 @@
                             <option value="time5">yli 30min</option>
                         </select><br><br> 
 
-                    Oliko ruoka<br>
-                            <input type="radio" name="lampo" value="cold"> kylmää<br>
-                            <input type="radio" name="lampo" value="good"> sopivan lämmintä<br>
-                            <input type="radio" name="lampo" value="hot"> kuumaa<br><br>
-                       
+                    Oliko ruoka
+                    <table id="ruoanlampo">
+                        <tr>
+                            <td id="ruoanlampo"><input type="radio" name="lampo" value="cold"></td>
+                            <td id="ruoanlampo">kylmää</td>
+                        </tr>
+                        <tr>    
+                            <td id="ruoanlampo"><input type="radio" name="lampo" value="good"></td>
+                            <td id="ruoanlampo">sopivan lämmintä</td>
+                        </tr>
+                        <tr>
+                            <td id="ruoanlampo"><input type="radio" name="lampo" value="hot"></td>
+                            <td id="ruoanlampo">kuumaa</td>
+                        </tr>
+                    </table>
+                    <br> 
 
                     Minkä arvosanan antaisit ruoan ulkonäölle:<br>
                         <input type="checkbox" name="foodgrade1"> 
@@ -78,22 +89,22 @@
                     <fieldset>
                     <legend>Yhteystiedot</legend>
                     Jätäthän yhteystietosi mikäli haluat, että ravintola ottaa sinuun yhteyttä:<br>
-                <table class="yhteystiedot">
+                <table id="yhteystiedot">
                 <tr>
-                    <td>Etunimi:</td>
-                    <td><input type="text" name="firstname"></td>
+                    <td id="yhteystiedot">Etunimi:</td>
+                    <td id="yhteystiedot"><input type="text" name="firstname"></td>
                     </tr>
                 <tr>
-                    <td>Sukunimi:</td>
-                    <td><input type="text" name="lastname"></td>
+                    <td id="yhteystiedot">Sukunimi:</td>
+                    <td id="yhteystiedot"><input type="text" name="lastname"></td>
                     </tr>
                 <tr>
-                    <td>Puhelinnumero:</td>
-                    <td><input type="tel"></td>
+                    <td id="yhteystiedot">Puhelinnumero:</td>
+                    <td id="yhteystiedot"><input type="tel"></td>
                     </tr>
                 <tr>
-                    <td>Sähköposti:</td>
-                    <td><input type="email"></td>
+                    <td id="yhteystiedot">Sähköposti:</td>
+                    <td id="yhteystiedot"><input type="email"></td>
                     
                 </tr>
                 </table>

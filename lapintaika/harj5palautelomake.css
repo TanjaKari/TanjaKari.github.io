@@ -78,11 +78,19 @@ header {
     color: rgb(76, 185, 3);
   }
 
-  table.yhteystiedot, td {
+  table {
     margin-left: auto; 
     margin-right: auto;
+  }
+
+  td#ruoanlampo {
+    text-align: left;
+  }
+  td#yhteystiedot {
     text-align: right;
   }
+
+  
   
 }
 
