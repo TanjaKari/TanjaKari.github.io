@@ -1,3 +1,5 @@
+@media screen and (max-width:1960px) {
+
 .nav-link {
     font-size: 20px;
 }
@@ -27,7 +29,7 @@ a:hover {
 }
 
 .container#cards {
-    align-items: center;
+    align-content: center;
     margin-top: 3em;
 }
 
@@ -38,7 +40,7 @@ a:hover {
 }
 
 .container#contact {
-    align-items: center;
+    align-content: center;
     margin-bottom: 5em;
   }
 
@@ -56,4 +58,23 @@ a:hover {
     left: 40%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+}
+}
+@media screen and (max-width: 480px) {
+
+    .nimi {
+        font-size: 2em;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+       
+        }
+}
+  
+@media screen and (max-width: 320px){
+  body {
+    width: 320px;
+  }
 }
