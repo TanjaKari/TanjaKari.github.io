@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fi">
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+        <LINK rel="stylesheet" href="harj5palautelomake.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Ravintola Lapintaika</title>
+     </head>
+    <body>
+            <header>
+                <h1>Ravintola Lapintaika</h1>                
+                </header>
+
+            <nav>
+                <a href="harj5lapintaika.html">Etusivu</a>
+                <a href="harj5palautelomake.html">Palautelomake</a>
+                </nav>
+
+            <section>
+                <h2>Palautelomake</h2>
+                <form onSubmit="jsfunctio()">
+                    <fieldset>
+                    <legend>Kyselylomake</legend>
+                    <p>Vierailupvm ja saapumisaika:
+                    <input type="datetime-local" name="date"><br><br>
+
+                    Minkä arvosanan antaisit asiakaspalvelulle:<br>
+                        <input type="checkbox" name="grade1"> 
+                        <i class="material-icons" style="color:yellow;align-items: flex-end;">grade</i><br>
+                        <input type="checkbox" name="grade2">
+                        <i class="material-icons" style="color:yellow">grade grade</i><br>
+                        <input type="checkbox" name="grade3">
+                        <i class="material-icons" style="color:yellow">grade grade grade</i><br>
+                        <input type="checkbox" name="grade4">
+                        <i class="material-icons" style="color:yellow">grade grade grade grade</i><br>
+                        <input type="checkbox" name="grade5">
+                        <i class="material-icons" style="color:yellow;-webkit-box-align: start;">grade grade grade grade grade</i><br><br>
+                    
+                    Kuinka kauan ruoan saamisessa kesti:<br>
+                        <select name="time">
+                            <option value="time1">10min</option>
+                            <option value="time2">15min</option>
+                            <option value="time3">20min</option>
+                            <option value="time4">30min</option>
+                            <option value="time5">yli 30min</option>
+                        </select><br><br> 
+
+                    Oliko ruoka<br>
+                            <input type="radio" name="lampo" value="cold"> kylmää<br>
+                            <input type="radio" name="lampo" value="good"> sopivan lämmintä<br>
+                            <input type="radio" name="lampo" value="hot"> kuumaa<br><br>
+                       
+
+                    Minkä arvosanan antaisit ruoan ulkonäölle:<br>
+                        <input type="checkbox" name="foodgrade1"> 
+                        <i class="material-icons" style="color:yellow;align-items: flex-end;">grade</i><br>
+                        <input type="checkbox" name="foodgrade2">
+                        <i class="material-icons" style="color:yellow">grade grade</i><br>
+                        <input type="checkbox" name="foodgrade3">
+                        <i class="material-icons" style="color:yellow">grade grade grade</i><br>
+                        <input type="checkbox" name="foodgrade4">
+                        <i class="material-icons" style="color:yellow">grade grade grade grade</i><br>
+                        <input type="checkbox" name="foodgrade5">
+                        <i class="material-icons" style="color:yellow;-webkit-box-align: start;">grade grade grade grade grade</i><br><br>
+                    
+                    Entä mitä mieltä olit ruoan mausta? Kerro myös olitko tyytyväinen hintaan:<br>
+                        <textarea name="taste" rows="5" cols="30"></textarea>    
+                    </fieldset><br>
+
+                    <fieldset>
+                    <legend>Vapaa palaute</legend>
+                    Tähän voit kirjoittaa vapaata palautetta:<br>
+                    <textarea name="vapaaPalaute" rows="5" cols="30"></textarea>
+                    </fieldset><br>
+
+                    <fieldset>
+                    <legend>Yhteystiedot</legend>
+                    Jätäthän yhteystietosi mikäli haluat, että ravintola ottaa sinuun yhteyttä:<br>
+                <table class="yhteystiedot">
+                <tr>
+                    <td>Etunimi:</td>
+                    <td><input type="text" name="firstname"></td>
+                    </tr>
+                <tr>
+                    <td>Sukunimi:</td>
+                    <td><input type="text" name="lastname"></td>
+                    </tr>
+                <tr>
+                    <td>Puhelinnumero:</td>
+                    <td><input type="tel"></td>
+                    </tr>
+                <tr>
+                    <td>Sähköposti:</td>
+                    <td><input type="email"></td>
+                    
+                </tr>
+                </table>
+                    <button type="button" onClick="jsfunctio()">Lähetä</button>              
+                    
+                    </fieldset>
+                </form>
+            </section>
+
+            <footer>                
+                <p>Yhteystiedot ja aukioloajat:<br>
+                    Ravintola Lapintaika<br>
+                    Ravintolakatu 2, 98765 LAPINMAA <br>
+                    Puh. (012) 345 6789<br>
+                    Sähköposti: varaukset@jokuposti.net<br>
+                    aukioloajat: ma - pe, 10:30 - 15:00</p>               
+                </footer>
+    </body>
+</html>

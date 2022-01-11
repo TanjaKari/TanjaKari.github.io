@@ -1,0 +1,119 @@
+@media screen and (max-width:1960px) {
+  
+body {
+    background-image: url(kuvat/tausta.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Delius";
+    display: grid;
+    grid-template-areas:
+      'header header header header'
+      'nav nav nav nav'
+      'section section section section'
+      'footer footer footer footer';
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+header {
+    grid-area: header;
+    font-size: 30px;
+    color: rgb(243, 240, 234);
+    text-shadow: 3px 3px 4px rgb(252, 102, 16);
+  }
+  nav {
+    grid-area: nav;
+    font-size: 20px;
+    color: rgb(243, 240, 234);
+  }
+  aside {
+    grid-area: aside;
+    font-size: 13px;
+    color: rgb(243, 240, 234);
+  }
+  article {
+    grid-area: article;
+    font-size: 20px;
+    color: rgb(243, 240, 234);
+  }
+  section {
+    grid-area: section;
+    font-size: 20px;
+    color: rgb(243, 240, 234);
+  }
+  
+  footer {
+    grid-area: footer;
+    font-size: 18px;
+    color: rgb(236, 148, 97);
+    text-shadow: 0 0 3px #FF0000
+  }
+  header,nav,aside,section,article,footer {
+    background-color: rgba(0, 0, 0, 0.548);
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  hr { 
+    color: rgb(255, 255, 255);
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-width: 1px;
+    /*display: block;
+    color: rgb(255, 255, 255);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 270px;
+    margin-right: 270px;
+    border-style: inset;
+    border-width: 1px;*/
+  }
+  a:link, a:visited {
+    color: rgb(243, 240, 234);
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  a:hover, a:active {
+    color: rgb(76, 185, 3);
+  }
+
+  table.yhteystiedot, td {
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: right;
+  }
+  
+}
+
+  @media screen and (max-width: 480px) {
+
+    header,nav,aside,section,article,footer {
+        background-color: rgb(18, 28, 34);
+        font-size: 1.2em;
+      }
+      body {
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        background-color: #0e67b9;
+        padding: 0.5em;
+        font-size: 0.6em;
+        grid-gap: 0.5em;
+        }
+    
+      aside {
+        display: none;
+      }
+
+      i.material-icons {
+        font-size: 0.9em;
+      }
+    }
+  
+    @media screen and (max-width: 320px){
+      body {
+        width: 320px;
+      }
+    }
+  
