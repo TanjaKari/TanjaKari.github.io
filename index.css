@@ -1,7 +1,7 @@
 @media screen and (max-width:1960px) {
 
-.nav-link {
-    font-size: 20px;
+.li {
+    font-size: 5px;
 }
 
 a:link, a:visited {
@@ -19,7 +19,7 @@ a:hover {
     background-size: cover;
 }
 
-.nimi{
+.nimi {
     font-size: 500%;
     color: azure;
     margin-right: 0.5em;
@@ -28,10 +28,6 @@ a:hover {
     text-shadow: 2px 2px 4px #000000
 }
 
-.container#cards {
-    align-content: center;
-    margin-top: 3em;
-}
 
 .jumbotron#cv {
     background-color: rgba(46, 71, 50, 0.623);
@@ -61,15 +57,16 @@ a:hover {
 }
 }
 @media screen and (max-width: 480px) {
+   
 
     .nimi {
         font-size: 2em;
     }
 
-    body {
+    .container#contact {
         display: flex;
         flex-direction: column;
-       
+        
         }
 }
   

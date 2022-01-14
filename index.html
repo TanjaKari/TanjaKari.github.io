@@ -10,12 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Tanja Kari</title>
   </head>
   <body>
-    <ul class="nav justify-content-end" style="background-color: rgba(46, 71, 50, 0.623);">
+    <ul class="navbar" style="background-color: rgba(46, 71, 50, 0.623);">
       <li class="nav-item">
         <a class="nav-link" href="index.html">Etusivu</a>
       </li>
@@ -31,34 +30,25 @@
       <h1 class="nimi">Tanja Kari</h1>
     </div>
 
-    <div class="container" id="cards">
-      <div class="row">
-        <div class="col-sm-4">
-          <div id="portfolio" class="card" style="width: 18rem;">
-            <img src="kuvat/lapintaika.png" class="card-img-top" alt="Ravintola Lapintaika">
-          <div class="card-body">
-            <p class="card-text"><a href="lapintaika/harj5lapintaika.html" target="blank">Harjoitustyö Ravintolan kotisivuista GRIDiä käyttäen</a></p>
-          </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="card" style="width: 18rem;">
-            <img src="kuvat/maat.png" class="card-img-top" alt="Maa-esittely">
-          <div class="card-body">
-            <p class="card-text"><a href="maat/harj4.html" target="blank">Harjoitustyö eri maiden esittelystä</a></p>
-          </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="card" style="width: 18rem;">
-            <img src="kuvat/koodia.png" class="card-img-top" alt="koodia">
-          <div class="card-body">
-          <p class="card-text">Javascript koodia</p>
-          </div>
-          </div>
-        </div>
+    <div class="card">
+      <img src="kuvat/lapintaika.png" alt="Lapintaika" style="width:100%">
+      <div class="container">
+        <p class="card-text"><a href="lapintaika/harj5lapintaika.html" target="blank">Harjoitustyö Ravintolan kotisivuista GRIDiä käyttäen</a></p>
       </div>
     </div>
+    <div class="card">
+      <img src="kuvat/maat.png" alt="Maat" style="width:100%">
+      <div class="container">
+        <p class="card-text"><a href="lapintaika/harj4.html" target="blank">Harjoitustyö eri maiden esittelystä</a></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="kuvat/koodia.png" alt="Koodia" style="width:100%">
+      <div class="container">
+        <p class="card-text"><a href="" target="blank">JavaScript koodia</a></p>
+      </div>
+    </div>
+
 
       <div id="cv" class="jumbotron">
         <p style="text-align: center;">
@@ -84,11 +74,5 @@
       </div>
 
 
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
