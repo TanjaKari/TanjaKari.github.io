@@ -276,29 +276,24 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 35vh;
-  background: url("../img/hero-bg.jpg");
-  opacity: 0.9;
+  height: 75vh;
+  background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
-  background-attachment: fixed;
   padding: 0 15px;
 }
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 59px;
-  font-weight: 1000;
+  font-size: 50px;
+  font-weight: 700;
   line-height: 56px;
-  color: rgb(0, 0, 0);
-  text-shadow: 4px 4px 6px rgb(255, 255, 255);
-  /*-1px 0 rgb(255, 255, 255), 0 2px rgb(255, 255, 255), 2px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);*/
+  color: rgb(51, 51, 51);
 }
 #hero h2 {
-  color: rgb(0, 0, 0);
+  color: rgb(59, 59, 59);
   margin-bottom: 10px;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
   font-family: "Poppins", sans-serif;
-  text-shadow: 4px 4px 6px rgb(255, 255, 255);
 }
 #hero .btn-get-started {
   font-size: 64px;
@@ -425,7 +420,7 @@ section {
 .about .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #eeafca;
+  color: #555555;
   float: left;
   line-height: 0;
 }
@@ -498,7 +493,7 @@ section {
   font-style: normal;
 }
 .skills .progress-bar-wrap {
-  background: #fbeaf1;
+  background: #dadada;
 }
 .skills .progress-bar {
   width: 1px;
@@ -521,7 +516,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid#435dd4;
+  border-left: 2px solid #435dd4;
   position: relative;
 }
 .resume .resume-item h4 {
@@ -558,7 +553,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid#435dd4;
+  border: 2px solid #435dd4;
 }
 
 /*--------------------------------------------------------------
@@ -760,7 +755,7 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid#435dd4;
+  border: 1px solid #435dd4;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color:#435dd4;
@@ -827,7 +822,7 @@ section {
   margin: 0 0 0 45px;
 }
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #f7d9e6;
+  color: #585858;
   font-size: 26px;
 }
 .testimonials .testimonial-item .quote-icon-left {
@@ -861,7 +856,7 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid#435dd4;
+  border: 1px solid #435dd4;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color:#435dd4;
@@ -907,7 +902,7 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid#435dd4;
+  border: 1px solid #435dd4;
 }
 .contact .social-links a:hover {
   background:#435dd4;
