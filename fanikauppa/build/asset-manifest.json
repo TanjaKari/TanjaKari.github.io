@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/fanikauppa/static/css/main.efd93245.css",
+    "main.js": "/fanikauppa/static/js/main.224e5a2d.js",
+    "static/js/787.78f34a16.chunk.js": "/fanikauppa/static/js/787.78f34a16.chunk.js",
+    "static/media/CocaCola_logo_white.png": "/fanikauppa/static/media/CocaCola_logo_white.a5dba0b1d39565bd9d2f.png",
+    "static/media/heart.png": "/fanikauppa/static/media/heart.205e4cdb0e9df24469ec.png",
+    "index.html": "/fanikauppa/index.html",
+    "main.efd93245.css.map": "/fanikauppa/static/css/main.efd93245.css.map",
+    "main.224e5a2d.js.map": "/fanikauppa/static/js/main.224e5a2d.js.map",
+    "787.78f34a16.chunk.js.map": "/fanikauppa/static/js/787.78f34a16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efd93245.css",
+    "static/js/main.224e5a2d.js"
+  ]
+}
