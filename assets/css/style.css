@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   transition: all 0.5s;
-  z-index: 997;
+  z-index: 897;
   transition: all 0.5s;
   height: 60px;
   background: #fff;
@@ -314,6 +314,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media (max-width: 768px) {
+  #hero {
+    height: 30vh;
+  }
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -409,7 +412,7 @@ section {
   background: linear-gradient(180deg, #71854b23 0%, #fff 100%);
 }
 .about .content {
-  padding: 30px 30px;
+  padding: 30px 5px;
 }
 .about .content h3 {
   font-weight: 500;
@@ -422,7 +425,7 @@ section {
 .about .image {
   background: url("../img/me1.jpg") no-repeat;
   background-size: auto 400px;
-  background-position: right; 
+  background-position: center; 
   min-height: 400px;
 }
 @media (max-width: 991px) {
